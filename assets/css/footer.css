@@ -1,0 +1,145 @@
+.footer {
+  background: #0d1117;
+  width: 100.5vw;
+}
+.footer-row {
+  /* Footer Container */
+
+  padding: 15px 2% 10px 2%;
+  text-align: center;
+}
+.footerMec {
+  /* MEC icon */
+  float: right;
+  margin-top: 8px;
+  margin-right: 5%
+}
+.footerMec img {
+  width: 150px;
+}
+.footerExcel {
+  /* Excel icon */
+  float: left;
+  margin-left: -3%;
+  margin-bottom: 10px;
+}
+.footerExcel img {
+  width: 150px;
+}
+
+.footerIcon {
+  /* Social icons */
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footerIcon2 {
+  display: none;
+}
+
+.social-icons {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.social-icons li {
+  color: #fff;
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-footer {
+  font-size: 20px;
+  padding: 10px 14px;
+  transition: 0.5s;
+}
+.fa-facebook-f:hover {
+  background-color: #3d5b99;
+}
+.fa-linkedin-footer:hover {
+  background-color: #0073a4;
+}
+.fa-instagram:hover {
+  background-color: #e64a41;
+}
+.fa-twitter:hover {
+  background-color: #1DA1F2;
+}
+.footer-text {
+  color: white;
+}
+@media only screen and (max-width: 850px){
+  .footerExcel {
+  margin-left: -5%;
+}
+}
+@media only screen and (max-width: 550px) {
+  / Footer /
+  .footerMec img{
+    width: 100px;
+  }
+
+  .footerExcel img {
+    width: 80px;
+    height: 80px;
+    margin-left:20%
+  }
+  .footerIcon {
+    display: none;
+  }
+  .footerIcon2 {
+    margin-top: 70px;
+    display: block;
+    margin-left: 20%;
+    margin-right: 30%;
+    padding-bottom: 20px;
+  }
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-linkedin-footer {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .footerMec img{
+    width: 110px;
+  }
+  .footerExcel img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footerIcon2 {
+    margin-top: 50px;
+    display: block;
+    margin-left: 23%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+  }
+  .footerMec img{
+    width: 100px;
+  }
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-linkedin-footer {
+    font-size: 15px;
+  }
+  .footerExcel img {
+    width: 50px;
+    height: 50px;
+  }
+}
