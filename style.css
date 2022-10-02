@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './assets/css/landing.css';
+@import './assets/css/about.css';
+@import './assets/css/associate.css';
+@import './assets/css/reach.css';
+@import './assets/css/news.css';
+@import './assets/css/sponsors.css';
+@import './assets/css/gallery.css';
+@import './assets/css/contact.css';
+@import './assets/css/footer.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+@media (min-width: 800px) {
+    ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+      background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      width: 10px;
+      background: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
+    }
+    ::-webkit-scrollbar-track {
+      background-color: #212121;
+    }
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+  }
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
