@@ -1,20 +1,22 @@
-.section.associate{
+.section.associate {
     --font-color: #fff;
     --bg-color: #26B6CA;
-    
+
     background: var(--bg-color);
     color: var(--font-color);
-    gap: 3rem;
-  }
+}
+
 .section.associate .container {
     width: 80%;
 }
+
 .section.associate .title {
     color: var(--font-color);
 }
-.section.associate .title::after{
+
+.section.associate .title::after {
     background: var(--font-color);
-  }
+}
 
 .section.associate .container .card {
     width: 280px;

@@ -4,29 +4,32 @@
 
     padding-left: 5rem;
 }
+.section.about {
+    gap: 2rem;
+}
 
 .about .title {
     color: var(--font-color);
 }
 
-.about .logo{
+.about .logo {
     width: 450px;
     height: 450px;
 }
-.about .logo img{
+
+.about .logo img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.about .container{
-    width: 100%;
+.section.about .container {
     gap: 0;
     justify-content: space-between;
 }
 
-.about .container .content{
-    width: 600px;
+.about .container .content {
+    width: 60%;
     color: var(--font-color);
     display: flex;
     flex-direction: column;
@@ -34,18 +37,18 @@
     gap: 3rem;
 }
 
-@media (max-width: 1300px){
-    .about{
+@media (max-width: 1320px) {
+    .about {
         padding-left: 2rem;
     }
-    .about .container{
-        flex-direction: column-reverse;
-    }
-    .about .logo{
+
+    .about .logo {
         width: 400px;
         height: 400px;
     }
-    .about .container .content{
+
+    .about .container .content {
+        width: 600px;
         color: var(--font-color);
         display: flex;
         flex-direction: column;
@@ -55,8 +58,15 @@
 
 }
 
+@media (max-width: 1180px) {
+    .section.about .container {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
 
-.about .container .content .para{
+
+.about .container .content .para {
     font-size: 1.1rem;
     font-weight: 500;
     width: 90%;
@@ -85,18 +95,19 @@
     color: #4DBFBE;
 }
 
-@media (max-width: 600px){
-    .about .logo{
+@media (max-width: 600px) {
+    .about .logo {
         width: 300px;
         height: 300px;
     }
-    .about .logo img{
+
+    .about .logo img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
-    
-    .about .container .content{
+
+    .about .container .content {
         width: 100%;
         color: var(--font-color);
         display: flex;
@@ -104,33 +115,33 @@
         align-items: center;
         gap: 2rem;
     }
-    
-    .about .container .content .para{
+
+    .about .container .content .para {
         font-size: 1rem;
         font-weight: 500;
         width: 100%;
     }
-    
+
     .about .read-btn {
         width: 250px;
         padding: 0.8rem 1rem;
         border-radius: 5px;
         cursor: pointer;
-    
+
         font-weight: 700;
         font-size: 1rem;
         color: var(--bg-color);
         background: #26B6CA;
         transition: all 0.3s;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
     .about .read-btn {
         width: 100%;
     }

@@ -1,0 +1,38 @@
+.section.title-sponsors {
+    --font-color: #212121;
+    --bg-color: #fff;
+    --color: #26B6CA;
+    padding: 5rem 0;
+    background: var(--bg-color);
+
+    gap: 4rem;
+}
+
+.section.title-sponsors .container {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.section.title-sponsors .container:hover {
+    transform: rotate(5deg);
+}
+
+.section.title-sponsors .container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section.title-sponsors .title {
+    color: var(--font-color);
+}

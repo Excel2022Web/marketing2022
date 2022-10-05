@@ -3,7 +3,7 @@
     --bg-color: #fff;
 
     background: var(--bg-color);
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .news .title {
@@ -25,9 +25,9 @@
     gap: 1rem;
 
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: all 0.3s;
 
-    border: 3px solid #26B6CA99;
+    border: 3px solid #26B6CA60;
 
 }
 
@@ -114,6 +114,10 @@
 
 }
 
+.news .container .card:hover {
+    border: 3px solid #26B6CA;
+}
+
 .news .container .card .read-btn:hover {
     background: var(--font-color);
     color: var(--bg-color);
@@ -121,6 +125,9 @@
 
 
 @media (max-width: 600px) {
+    .section.news {
+        gap: 3rem;
+    }
     .news .container .card {
         width: 280px;
     }

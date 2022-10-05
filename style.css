@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './assets/css/landing.css';
 @import './assets/css/about.css';
+@import './assets/css/titleSponsor.css';
 @import './assets/css/associate.css';
 @import './assets/css/reach.css';
 @import './assets/css/news.css';
@@ -11,60 +12,64 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
 
-    --grad: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
+  --grad: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
 }
 
 @media (min-width: 800px) {
-    ::-webkit-scrollbar {
-      width: 10px;
-      height: 10px;
-      background-color: transparent;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #30B9C7;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #7ACBAF;
-    }
-    ::-webkit-scrollbar-track {
-      background-color: #212121;
-    }
-    ::-webkit-scrollbar-corner {
-      background: transparent;
-    }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
   }
+
+  ::-webkit-scrollbar-thumb {
+    background: #30B9C7;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7ACBAF;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #212121;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
 
 a,
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-.section{
-  padding: 3rem 2rem;
+.section {
+  padding: 5rem 2rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
-.section .title{
+.section .title {
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -73,7 +78,7 @@ a:active {
   color: #212121;
 }
 
-.section .title::after{
+.section .title::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -86,7 +91,7 @@ a:active {
   border-radius: 5px;
 }
 
-.section .container{
+.section .container {
   padding: 1rem 0;
   width: 90%;
 
@@ -98,51 +103,38 @@ a:active {
   flex-wrap: wrap;
 }
 
-@media (max-width: 800px){
-    .section .title{
+@media (max-width: 800px) {
+  .section .title {
     font-size: 1.7rem;
   }
-  .section .title::after{
+
+  .section .title::after {
     height: 4px;
     border-radius: 4px;
   }
-  .section .container{
+
+  .section .container {
     width: 100%;
   }
 }
 
-@media (max-width: 500px){
-    .section .title{
+@media (max-width: 500px) {
+  .section {
+    padding: 3rem 2rem;
+  }
+
+  .section .title {
     font-size: 1.5rem;
   }
-  .section .title::after{
+
+  .section .title::after {
     height: 3px;
     border-radius: 3px;
   }
-  .section .container{
+
+  .section .container {
     gap: 2rem;
   }
 }
 
 
-.section.title-sponsors{
-  --font-color: #212121;
-  --bg-color: #fff;
-  --color: #26B6CA;
-  padding: 3rem 0 5rem;
-  background: var(--bg-color);
-
-  gap: 3rem;
-}
-
-.section.title-sponsors .container{
-  width: 80%;
-  height: 300px;
-  border-radius: 20px;
-  background: var(--color);
-  opacity: 0.5;
-}
-
-.section.title-sponsors .title {
-  color: var(--font-color);
-}
