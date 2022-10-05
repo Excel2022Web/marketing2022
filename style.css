@@ -123,3 +123,26 @@ a:active {
     gap: 2rem;
   }
 }
+
+
+.section.title-sponsors{
+  --font-color: #212121;
+  --bg-color: #fff;
+  --color: #26B6CA;
+  padding: 3rem 0 5rem;
+  background: var(--bg-color);
+
+  gap: 3rem;
+}
+
+.section.title-sponsors .container{
+  width: 80%;
+  height: 300px;
+  border-radius: 20px;
+  background: var(--color);
+  opacity: 0.5;
+}
+
+.section.title-sponsors .title {
+  color: var(--font-color);
+}

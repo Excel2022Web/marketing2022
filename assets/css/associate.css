@@ -25,6 +25,8 @@
     align-items: center;
     gap: 0.8rem;
     overflow: hidden;
+    background: var(--font-color);
+    color: #212121;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     cursor: pointer;

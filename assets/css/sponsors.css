@@ -1,12 +1,19 @@
-.sponsors{
-    --font-color: #212121;
-    --bg-color: #30B9C7;
-    padding: 3rem 0rem;
+.section.sponsors{
+    --font-color: #fff;
+    --bg-color: #212121;
+    --color: #26B6CA;
+    padding: 3rem 0 5rem;
+    background: var(--bg-color);
+
+    gap: 3rem;
 }
 
-.sponsors .container{
+.section.sponsors .container{
     width: 100%;
     height: 300px;
-    background: var(--bg-color);
-    opacity: 0.5;
+    background: var(--color);
+}
+
+.section.sponsors .title {
+    color: var(--font-color);
 }
