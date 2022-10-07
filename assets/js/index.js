@@ -28,7 +28,7 @@ menuIcon.addEventListener("click",()=>{
     toggle=1;
   }
   else{
-    menu.style.transform = "translate(-50%,-100%)";
+    menu.style.transform = "translate(-50%,-120%)";
     toggle=0;
   }
 });

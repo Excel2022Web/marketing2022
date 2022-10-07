@@ -128,6 +128,9 @@
     .section.news {
         gap: 3rem;
     }
+    .section.news .container{
+        gap: 3rem;
+    }
     .news .container .card {
         width: 280px;
     }

@@ -1,32 +1,34 @@
-.navbar{
+.navbar {
   --bg: transparent;
   --text: #fff;
+  --color: #26B6CA;
   --opacity: 0;
-  
+
   position: sticky;
   top: 0;
-  
+  z-index: 100;
+
   background: var(--bg);
   padding: 0 2rem;
   height: 4rem;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   transition: all 0.5s;
-  
+
 }
 
-.scrolled{
+.scrolled {
   --bg: #fff;
   --text: #212121;
   --opacity: 1;
-  
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.navbar .logo{
+.navbar .logo {
   opacity: var(--opacity);
   position: absolute;
   left: 2rem;
@@ -34,16 +36,17 @@
   height: 50px;
   transition: opacity 0.3s;
 }
-.navbar .logo img{
+
+.navbar .logo img {
   height: 100%;
   object-fit: cover;
 }
 
-.navbar .icon{
+.navbar .icon {
   display: none;
 }
 
-.navbar .menu{
+.navbar .menu {
   display: flex;
   gap: 1.5rem;
   text-transform: uppercase;
@@ -51,30 +54,36 @@
   font-size: 0.85rem;
 }
 
-.navbar .menu .item{
+.navbar .menu .item {
   color: var(--text);
   cursor: pointer;
   transition: all 0.3s;
 }
 
-@media (max-width: 850px){
-  .navbar{  
-  background: var(--bg);
-  height: 3rem;
-  
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-}
-  .navbar .logo{
-  opacity: var(--opacity);
-  position: static;
-  width: 30px;
-  height: 30px;
-}
-  .navbar .icon{
-    color: dodgerblue;
+@media (max-width: 850px) {
+  .navbar {
+    --bg: #212121;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .scrolled {
+    --bg: #fff;
+  }
+
+  .navbar .logo {
+    opacity: var(--opacity);
+    position: static;
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar .icon {
+    color: var(--color);
     font-size: 1.5rem;
     width: 30px;
     height: 30px;
@@ -83,53 +92,62 @@
     align-items: center;
     justify-content: center;
   }
-  .navbar .menu{
+
+  .navbar .menu {
     position: absolute;
+    left: 50%;
     width: 100%;
+    height: 100vh;
     padding: 2rem;
-    padding-top: 5rem;
     top: 0;
     z-index: -1;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: #212121;
     background: #fff;
-    transform: translate(-50%,-100%);
+    transform: translate(-50%, -120%);
     transition: all 0.5s;
   }
-  .navbar .menu .item{
-  color: #212121;
-}
-}
 
-.navbar .menu .item:hover{
-  color: dodgerblue;
-}
-
-.navbar .menu .item.active{
-  color: dodgerblue;
-  position: relative;
-}
-
-.navbar .menu .item.active::before{
-  position: absolute;
-  left: 50%;
-  transform-origin: center center;
-  content: '';
-  height: 3px;
-  border-radius: 3px;
-  width: 20px;
-  background: dodgerblue;
-  transition: all 0.3s;
-  transform: translate(-50%,-8px) scaleX(0);
-  animation: expand 0.2s linear 1 forwards;
-}
-
-@keyframes expand{
-  from{
-  transform: translate(-50%,-8px) scaleX(0);
+  .navbar .menu .item {
+    color: #212121;
+    font-size: 1rem;
   }
-  to{
-  transform: translate(-50%,-8px) scaleX(1);
+}
+
+@media (min-width: 850px) {
+
+  .navbar .menu .item:hover {
+    color: var(--color);
+  }
+
+  .navbar .menu .item.active {
+    color: var(--color);
+    position: relative;
+  }
+
+  .navbar .menu .item.active::before {
+    position: absolute;
+    left: 50%;
+    transform-origin: center center;
+    content: '';
+    height: 3px;
+    border-radius: 3px;
+    width: 20px;
+    background: var(--color);
+    transition: all 0.3s;
+    transform: translate(-50%, -8px) scaleX(0);
+    animation: expand 0.2s linear 1 forwards;
+  }
+}
+
+@keyframes expand {
+  from {
+    transform: translate(-50%, -8px) scaleX(0);
+  }
+
+  to {
+    transform: translate(-50%, -8px) scaleX(1);
   }
 }

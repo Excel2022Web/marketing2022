@@ -20,7 +20,7 @@
 
 .section.associate .container .card {
     width: 280px;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 }
 
 .section.associate .container .card .heading {
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     font-weight: 700;
     font-size: 1.2rem;
     cursor: pointer;
@@ -57,7 +57,7 @@
 .section.associate .container .card .para {
     font-weight: 500;
     font-size: 0.9rem;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
     opacity: 0.9;
     height: 100px;
     cursor: pointer;
@@ -66,5 +66,10 @@
 @media (min-width: 700px) {
     .associate .container .card:hover {
         transform: translateY(-0.7rem);
+    }
+}
+@media (max-width: 700px) {
+    .section.associate .container {
+        width: 100%;
     }
 }
