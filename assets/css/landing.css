@@ -6,8 +6,8 @@
     background-image: url("../img/landing.svg");
     background-color: #212121;
     background-position: center;
-    background-repeat: no-repeat; 
-    background-size: 90%; 
+    background-repeat: no-repeat;
+    background-size: 90%;
 
     display: flex;
     align-items: center;
@@ -22,34 +22,36 @@
 }
 
 
-@media (min-width: 850px) and (max-width: 1350px){
-    .landing .logo img{
+@media (min-width: 850px) and (max-width: 1350px) {
+    .landing .logo img {
         width: 600px;
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
     .landing {
-        background-size: 100%; 
+        background-size: 100%;
     }
-    .landing .logo img{
+
+    .landing .logo img {
         width: 400px;
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     .landing {
-    
+
         background-image: url("../img/landing-mobile.svg");
-        background-size: 400px; 
-    
+        background-size: 400px;
+
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
         overflow: hidden;
     }
-    .landing .logo img{
+
+    .landing .logo img {
         width: 300px;
     }
 }

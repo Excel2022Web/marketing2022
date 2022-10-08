@@ -12,9 +12,11 @@
 .footer .logo {
     height: 100px;
 }
+
 .footer .logo.mec-logo {
     height: 70px;
 }
+
 .footer .logo img {
     object-fit: cover;
     height: 100%;
@@ -50,12 +52,15 @@
     background: #1877f2;
     /* background: linear-gradient(90deg, #0C4C82 -13.51%, #0D4F84 -12.59%, #187BA2 5.14%, #1F9BB8 20.99%, #24AFC5 34.24%, #26B6CA 43.28%, #30B9C7 50.27%, #4DBFBE 62.37%, #7ACBAF 78.1%, #B1D89E 94.53%); */
 }
+
 .footer .content .social i.fa-instagram:hover {
     background: #c32aa3;
 }
+
 .footer .content .social i.fa-twitter:hover {
     background: #1da1f2;
 }
+
 .footer .content .social i.fa-linkedin-in:hover {
     background: #0a66c2;
 }
@@ -77,18 +82,20 @@
     .footer {
         padding-left: 0.5rem;
     }
+
     .footer .logo {
         height: 70px;
     }
+
     .footer .logo.mec-logo {
         height: 50px;
     }
-    
+
     .footer .content {
         gap: 0.3rem;
         font-size: 0.8rem;
     }
-    
+
     .footer .content .social {
         gap: 0.4rem;
         font-size: 1rem;
@@ -100,6 +107,7 @@
     .footer .logo {
         height: 50px;
     }
+
     .footer .logo.mec-logo {
         height: 40px;
     }
@@ -111,9 +119,11 @@
         padding-right: 1.2rem;
         gap: 1.5rem;
     }
+
     .footer .logo {
         order: 1;
-    }    
+    }
+
     .footer .content {
         order: 2;
         gap: 0.3rem;

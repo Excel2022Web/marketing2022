@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 600px) {
-    .gallery{
+    .gallery {
         gap: 30px;
     }
 
