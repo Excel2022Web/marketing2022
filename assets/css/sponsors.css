@@ -75,7 +75,7 @@
 
 @media (max-width: 600px) {
     .section.sponsors {
-        padding: 2rem;
+        padding: 4rem 2rem 3rem;
         gap: 2rem;
       }
   }

@@ -122,7 +122,7 @@ a:active {
 
 @media (max-width: 500px) {
   .section {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem 3rem;
   }
 
   .section .title {

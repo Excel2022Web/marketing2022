@@ -36,3 +36,9 @@
 .section.title-sponsors .title {
     color: var(--font-color);
 }
+
+@media (max-width: 500px) {
+    .section.title-sponsors {
+      padding: 3rem 2rem;
+    }
+}
