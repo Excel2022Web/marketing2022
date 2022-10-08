@@ -5,11 +5,11 @@ const about = document.querySelector(".about");
 const associate = document.querySelector(".associate");
 const reach = document.querySelector(".reach");
 const news = document.querySelector(".news");
-const sponsors = document.querySelector(".sponsors");
+const partners = document.querySelector(".partners");
 const gallery = document.querySelector(".gallery");
 const contacts = document.querySelector(".contact");
 
-const sections = [landing, about, associate, reach, news, sponsors, gallery, contacts];
+const sections = [landing, about, associate, reach, news, partners, gallery, contacts];
 
 // Menu active item
 
