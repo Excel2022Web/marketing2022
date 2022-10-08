@@ -3,7 +3,7 @@
     height: 100vh;
     background: #212121;
 
-    background-image: url("/assets/img/landing.svg");
+    background-image: url("../img/landing.svg");
     background-color: #212121;
     background-position: center;
     background-repeat: no-repeat; 
@@ -40,7 +40,7 @@
 @media (max-width: 600px){
     .landing {
     
-        background-image: url("/assets/img/landing-mobile.svg");
+        background-image: url("../img/landing-mobile.svg");
         background-size: 400px; 
     
         display: flex;
