@@ -1,4 +1,4 @@
-.section.title-sponsors {
+.section.title-partners {
     --font-color: #212121;
     --bg-color: #fff;
     --color: #26B6CA;
@@ -8,7 +8,7 @@
     gap: 4rem;
 }
 
-.section.title-sponsors .container {
+.section.title-partners .container {
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -23,21 +23,21 @@
     transition: transform 0.3s;
 }
 
-.section.title-sponsors .container:hover {
+.section.title-partners .container:hover {
     transform: rotate(5deg);
 }
 
-.section.title-sponsors .container img {
+.section.title-partners .container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.section.title-sponsors .title {
+.section.title-partners .title {
     color: var(--font-color);
 }
 
-.title-sponsors .content {
+.section.title-partners .content {
     margin-top: -2rem;
     display: flex;
     gap: 1rem;
@@ -45,14 +45,14 @@
     align-items: center;
 }
 
-.title-sponsors .content .heading {
+.section.title-partners .content .heading {
     font-size: 1.6rem;
     font-weight: 700;
     width: 90%;
     text-align: center;
 }
 
-.title-sponsors .content .para {
+.section.title-partners .content .para {
     font-size: 1.1rem;
     font-weight: 500;
     opacity: 0.8;
@@ -61,17 +61,17 @@
 }
 
 @media (max-width: 500px) {
-    .section.title-sponsors {
+    .section.title-partners {
         padding: 3rem 2rem;
     }
 
-    .title-sponsors .content .heading {
+    .section.title-partners .content .heading {
         font-size: 1.3rem;
         font-weight: 700;
         width: 100%;
     }
 
-    .title-sponsors .content .para {
+    .section.title-partners .content .para {
         font-size: 0.9rem;
         opacity: 0.8;
         width: 100%;

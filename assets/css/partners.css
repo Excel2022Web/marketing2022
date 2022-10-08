@@ -1,4 +1,4 @@
-.section.sponsors {
+.section.partners {
     --font-color: #212121;
     --bg-color: #26B6CA10;
   
@@ -7,7 +7,7 @@
     overflow: hidden;
   }
   
-  .section.sponsors .title {
+  .section.partners .title {
     color: var(--font-color);
   }
 
@@ -74,7 +74,7 @@
 }
 
 @media (max-width: 600px) {
-    .section.sponsors {
+    .section.partners {
         padding: 4rem 2rem 3rem;
         gap: 2rem;
       }
