@@ -23,10 +23,6 @@
     transition: transform 0.3s;
 }
 
-.section.title-partners .container:hover {
-    transform: rotate(5deg);
-}
-
 .section.title-partners .container img {
     height: 100%;
     width: 100%;
@@ -49,7 +45,8 @@
     font-size: 1.6rem;
     font-weight: 700;
     width: 90%;
-    text-align: center;
+    text-align: center; 
+    transition: all 0.3s;
 }
 
 .section.title-partners .content .para {
@@ -57,7 +54,8 @@
     font-weight: 500;
     opacity: 0.8;
     width: 60%;
-    text-align: center;
+    text-align: center;  
+    transition: all 0.3s;           
 }
 
 @media (max-width: 500px) {
@@ -67,13 +65,11 @@
 
     .section.title-partners .content .heading {
         font-size: 1.3rem;
-        font-weight: 700;
         width: 100%;
     }
 
     .section.title-partners .content .para {
         font-size: 0.9rem;
-        opacity: 0.8;
         width: 100%;
     }
 }
