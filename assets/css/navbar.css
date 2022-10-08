@@ -64,6 +64,7 @@
   .navbar {
     --bg: #212121;
     height: 3.5rem;
+    padding: 0 1rem;
 
     display: flex;
     align-items: center;
