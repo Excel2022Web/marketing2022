@@ -14,6 +14,10 @@
   color: var(--font-color);
 }
 
+.section.reach .title::after {
+  background: #26B6CA;
+}
+
 .section.reach .container .card {
   width: 200px;
   height: 200px;

@@ -27,7 +27,7 @@
     cursor: pointer;
     transition: all 0.3s;
 
-    border: 3px solid #26B6CA60;
+    border: 3px solid #0c4c8260;
 
 }
 
@@ -110,16 +110,16 @@
     align-items: center;
     justify-content: center;
 
-    background: #26B6CA;
+    background: #0c4c82;
 
 }
 
 .news .container .card:hover {
-    border: 3px solid #26B6CA;
+    border: 3px solid #0c4c82;
 }
 
 .news .container .card .read-btn:hover {
-    background: var(--font-color);
+    background: #1c72b9;
     color: var(--bg-color);
 }
 

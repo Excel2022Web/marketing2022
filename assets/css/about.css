@@ -83,7 +83,7 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--bg-color);
-    background: #26B6CA;
+    background: #0c4c82;
     transition: all 0.3s;
 
     display: flex;
@@ -93,8 +93,7 @@
 }
 
 .about .read-btn:hover {
-    background: var(--font-color);
-    color: #4DBFBE;
+    background: #1c72b9;
 }
 
 @media (max-width: 600px) {
@@ -133,7 +132,7 @@
         font-weight: 700;
         font-size: 1rem;
         color: var(--bg-color);
-        background: #26B6CA;
+        background: #0c4c82;
         transition: all 0.3s;
 
         display: flex;

@@ -13,11 +13,10 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_12_38" x1="0" y1="0" x2="2099.34" y2="1844.14" gradientUnits="userSpaceOnUse">
-<stop offset="0.49069" stop-color="#26B6CA"/>
-<stop offset="0.56019" stop-color="#30B9C7"/>
-<stop offset="0.68036" stop-color="#4DBFBE"/>
-<stop offset="0.83676" stop-color="#7ACBAF"/>
-<stop offset="1" stop-color="#B1D89E"/>
+<stop stop-color="#0C4C82"/>
+<stop offset="0.359375" stop-color="#1C72B9"/>
+<stop offset="0.854167" stop-color="#26B6CA"/>
+<stop offset="1" stop-color="#30B9C7"/>
 </linearGradient>
 <clipPath id="clip0_12_38">
 <rect width="1980" height="1980" fill="white"/>
