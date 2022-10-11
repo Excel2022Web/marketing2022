@@ -26,7 +26,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   background: linear-gradient(to bottom, #212121 0% 20%, #ffffff 20% 100%);
-
+  overflow-x: hidden;
   --grad: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
 }
 
