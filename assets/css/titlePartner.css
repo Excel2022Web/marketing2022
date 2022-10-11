@@ -20,7 +20,6 @@
 
     padding: 20px;
     cursor: pointer;
-    transition: transform 0.3s;
 }
 
 .section.title-partners .container img {
@@ -46,7 +45,6 @@
     font-weight: 700;
     width: 90%;
     text-align: center;
-    transition: all 0.3s;
 }
 
 .section.title-partners .content .para {
@@ -55,7 +53,6 @@
     opacity: 0.8;
     width: 60%;
     text-align: center;
-    transition: all 0.3s;
 }
 
 @media (max-width: 500px) {

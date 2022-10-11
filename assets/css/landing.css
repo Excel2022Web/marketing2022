@@ -52,6 +52,7 @@
     }
 
     .landing .logo img {
-        width: 300px;
+        width: 350px;
+        transform: translate(-10px, -40px);
     }
 }

@@ -30,8 +30,8 @@
     background: var(--font-color);
     color: #212121;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-    cursor: pointer;
+    /* transition: transform 0.3s; */
+    /* cursor: pointer; */
 }
 
 .section.associate .container .card .pic {
@@ -63,11 +63,11 @@
     cursor: pointer;
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
     .associate .container .card:hover {
         transform: translateY(-0.7rem);
     }
-}
+} */
 
 @media (max-width: 700px) {
     .section.associate .container {

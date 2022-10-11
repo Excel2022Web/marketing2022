@@ -1,7 +1,7 @@
 const loader = document.getElementById("preloader");
-window.addEventListener('load',function(){
+window.addEventListener('load', function () {
   setTimeout(() => {
-    loader.style.display = "none";  
+    loader.style.display = "none";
   }, 1000);
 });
 
@@ -47,7 +47,9 @@ menuIcon.addEventListener("click", () => {
 for (let i = 0; i < menuItems.length; i++) {
   menuItems[i].addEventListener("click", () => {
     if (toggle === 1) {
-      menu.style.transform = "translate(-50%,-100%)";
+      menu.style.transform = "translate(-50%,-120%)";
+      document.querySelector(".icon i").classList.remove("fa-times");
+      document.querySelector(".icon i").classList.add("fa-bars");
       toggle = 0;
     }
   });

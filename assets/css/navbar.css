@@ -84,6 +84,7 @@
   }
 
   .navbar .icon {
+    -webkit-tap-highlight-color: transparent;
     color: var(--color);
     cursor: pointer;
     font-size: 1.5rem;
