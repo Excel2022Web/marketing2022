@@ -61,6 +61,8 @@
     opacity: 0.9;
     height: 100px;
     cursor: pointer;
+    text-align: center;
+
 }
 
 /* @media (min-width: 700px) {
