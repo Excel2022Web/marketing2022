@@ -46,6 +46,10 @@
   display: none;
 }
 
+.navbar .excel-text {
+  display: none;
+}
+
 .navbar .menu {
   display: flex;
   gap: 1.5rem;
@@ -94,6 +98,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .navbar .excel-text {
+    opacity: var(--opacity);
+    position: absolute;
+    left: 50%;
+    height: 95%;
+    padding: 0 30px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    transition: all 0.5s;
+  }
+
+  .navbar .excel-text img{
+    object-fit: cover;
+    width: 100px;
   }
 
   .navbar .menu {
