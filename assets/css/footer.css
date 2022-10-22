@@ -3,7 +3,6 @@
 .footer {
     background: #212121;
     padding: 1.5rem 2rem;
-    padding-left: 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,9 +78,6 @@
 
 
 @media (max-width: 700px) {
-    .footer {
-        padding-left: 0.5rem;
-    }
 
     .footer .logo {
         height: 70px;
@@ -116,7 +112,7 @@
 @media (max-width: 440px) {
     .footer {
         flex-wrap: wrap;
-        padding-right: 1.2rem;
+        padding: 1.5rem 1.2rem;
         gap: 1.5rem;
     }
 
